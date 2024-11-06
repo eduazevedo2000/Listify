@@ -4,7 +4,7 @@ Listify is a simple to-do list application developed with HTML, CSS, and pure Ja
 
 #Try It
 
-My WebApp is online!! Try it at: https://steady-jalebi-1636f7.netlify.app
+My WebApp is online!! Try it at: https://app-listify.netlify.app/
 
 ## Features
 
