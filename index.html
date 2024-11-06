@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Listify</title>
+  </head>
+  <body>
+    <header>
+      <h1>Listify</h1>
+      <h2>Your Day, Simplified.</h2>
+    </header>
+    <main>
+      <div class="newTaskBox">
+        <input
+          type="text"
+          name="task"
+          id="newTaskTitle"
+          placeholder="Task title"
+        />
+        <input
+          type="text"
+          name="newTaskDescription"
+          id="newTaskDescription"
+          placeholder="Task Description (optional)"
+        />
+        <button type="submit" id="submitButton">Add</button>
+      </div>
+
+      <div id="filter">
+        <h5>Filter</h5>
+        <h6><button id="allButton">All</button></h6>
+        <h6><button id="doneButton">Done</button></h6>
+        <h6><button id="toDoButton">To Do</button></h6>
+      </div>
+
+      <div class="taskBox">
+        <ul id="taskListBox"></ul>
+      </div>
+      <div id="noTasks" style="display: none">
+        <h4>No Tasks for now</h4>
+      </div>
+    </main>
+    <footer>Developed by Eduardo Azevedo</footer>
+  </body>
+</html>
