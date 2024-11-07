@@ -27,6 +27,7 @@ header {
 
 header h1 {
   font-size: 2.5rem;
+  text-shadow: 2px 2px 5px #f1c40f;
   margin-bottom: 10px;
 }
 
